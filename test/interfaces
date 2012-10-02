@@ -1,0 +1,6 @@
+auto lo eth0 eth1
+
+iface lo inet loopback
+
+source interfaces.d/eth0
+source interfaces.d/eth1
